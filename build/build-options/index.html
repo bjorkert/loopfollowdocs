@@ -5,14 +5,14 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Documentation of LoopFollow, a companion for Loop and Trio AID systems for iOS." name="description"/>
 <meta content="Loop and Learn" name="author"/>
-<link href="https://loopfollowdocs.org/build/build-options/" rel="canonical"/>
-<link href="../../remote/remote-control-nightscout/" rel="prev"/>
-<link href="../../faqs/lf-faqs/" rel="next"/>
+<link href="https://bjorkert.github.io/loopfollowdocs/build/build-options/" rel="canonical"/>
+<link href="../../remote/remote-command-errors/" rel="prev"/>
+<link href="../lf-browser-build/" rel="next"/>
 <link href="../../assets/images/favicon.ico" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.6.7" name="generator"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.7" name="generator"/>
 <title>LoopFollow Build - LoopFollowDocs</title>
-<link href="../../assets/stylesheets/main.8608ea7d.min.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/main.ec1eaa64.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
@@ -109,7 +109,7 @@
 <div class="md-header__source">
 <a class="md-source" data-md-component="source" href="https://github.com/loopandlearn/loopfollowdocs/" title="Go to repository">
 <div class="md-source__icon md-icon">
-<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
 </div>
 <div class="md-source__repository">
     loopandlearn/loopfollowdocs
@@ -124,6 +124,7 @@
 <a class="md-tabs__link" href="../..">
         
   
+  
     
   
   Home
@@ -133,6 +134,7 @@
 <li class="md-tabs__item">
 <a class="md-tabs__link" href="../../setup/lf-setup/">
           
+  
   
     
   
@@ -144,6 +146,7 @@
 <a class="md-tabs__link" href="../../remote/remote-control-overview/">
           
   
+  
     
   
   Remote Control
@@ -154,6 +157,7 @@
 <a class="md-tabs__link" href="./">
           
   
+  
     
   
   Build
@@ -161,18 +165,53 @@
         </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../faqs/lf-faqs/">
+<a class="md-tabs__link" href="../../android/lf-android/">
           
+  
   
     
   
-  FAQs
+  Android
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../privacy/lf-telemetry/">
+          
+  
+  
+    
+  
+  Privacy
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../hub/lf-hub-overview/">
+          
+  
+  
+    
+  
+  LF Hub
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../faqs/lf-faqs/">
+          
+  
+  
+    
+  
+  Reference
 
         </a>
 </li>
 <li class="md-tabs__item">
 <a class="md-tabs__link" href="../../translate/">
           
+  
   
     
   
@@ -200,7 +239,7 @@
 <div class="md-nav__source">
 <a class="md-source" data-md-component="source" href="https://github.com/loopandlearn/loopfollowdocs/" title="Go to repository">
 <div class="md-source__icon md-icon">
-<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
 </div>
 <div class="md-source__repository">
     loopandlearn/loopfollowdocs
@@ -211,7 +250,11 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../..">
 <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
 </a>
@@ -219,7 +262,11 @@
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../setup/lf-setup/">
 <span class="md-ellipsis">
+    
+  
     Setup and Features
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -228,7 +275,11 @@
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../remote/remote-control-overview/">
 <span class="md-ellipsis">
+    
+  
     Remote Control
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -238,7 +289,11 @@
 <input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
 <span class="md-ellipsis">
+    
+  
     Build
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -246,21 +301,33 @@
 <nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
-            Build
+            
+  
+    Build
+  
+
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
 <span class="md-ellipsis">
+    
+  
     LoopFollow Build
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
+    
+  
     LoopFollow Build
+  
+
     
   </span>
 </a>
@@ -273,57 +340,77 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#building-options">
 <span class="md-ellipsis">
-      Building Options
+      
+        Building Options
+      
     </span>
 </a>
 <nav aria-label="Building Options" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#browser-build-update-for-loopfollow-v40">
-<span class="md-ellipsis">
-      Browser Build Update for LoopFollow v4.0
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#build-loopfollow-script-for-mac-xcode">
 <span class="md-ellipsis">
-      Build LoopFollow Script for Mac-Xcode
+      
+        Build LoopFollow Script for Mac-Xcode
+      
     </span>
 </a>
 </li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-loopfollow-on-mac">
+<span class="md-ellipsis">
+      
+        Run LoopFollow on Mac
+      
+    </span>
+</a>
+<nav aria-label="Run LoopFollow on Mac" class="md-nav">
+<ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#run-loopfollow-on-mac-using-testflight">
 <span class="md-ellipsis">
-      Run LoopFollow on Mac using TestFlight
+      
+        Run LoopFollow on Mac using TestFlight
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#run-loopfollow-on-your-mac-with-mac-xcode-build">
+<a class="md-nav__link" href="#run-loopfollow-on-mac-with-mac-xcode-build">
 <span class="md-ellipsis">
-      Run LoopFollow on your Mac with Mac-Xcode Build
+      
+        Run LoopFollow on Mac with Mac-Xcode Build
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#selection-of-branch-to-build">
 <span class="md-ellipsis">
-      Selection of Branch to Build
+      
+        Selection of Branch to Build
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#updates">
 <span class="md-ellipsis">
-      Updates
+      
+        Updates
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#version-numbers">
 <span class="md-ellipsis">
-      Version Numbers
+      
+        Version Numbers
+      
     </span>
 </a>
 </li>
@@ -333,13 +420,68 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../lf-browser-build/">
+<span class="md-ellipsis">
+    
+  
+    LoopFollow Browser Build
+  
+
+    
+  </span>
+</a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../android/lf-android/">
+<span class="md-ellipsis">
+    
+  
+    Android
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../privacy/lf-telemetry/">
+<span class="md-ellipsis">
+    
+  
+    Privacy
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../hub/lf-hub-overview/">
+<span class="md-ellipsis">
+    
+  
+    LF Hub
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../faqs/lf-faqs/">
 <span class="md-ellipsis">
-    FAQs
+    
+  
+    Reference
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -348,7 +490,11 @@
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
 <a class="md-nav__link" href="../../translate/">
 <span class="md-ellipsis">
+    
+  
     Translate
+  
+
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -371,57 +517,77 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="#building-options">
 <span class="md-ellipsis">
-      Building Options
+      
+        Building Options
+      
     </span>
 </a>
 <nav aria-label="Building Options" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#browser-build-update-for-loopfollow-v40">
-<span class="md-ellipsis">
-      Browser Build Update for LoopFollow v4.0
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#build-loopfollow-script-for-mac-xcode">
 <span class="md-ellipsis">
-      Build LoopFollow Script for Mac-Xcode
+      
+        Build LoopFollow Script for Mac-Xcode
+      
     </span>
 </a>
 </li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#run-loopfollow-on-mac">
+<span class="md-ellipsis">
+      
+        Run LoopFollow on Mac
+      
+    </span>
+</a>
+<nav aria-label="Run LoopFollow on Mac" class="md-nav">
+<ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#run-loopfollow-on-mac-using-testflight">
 <span class="md-ellipsis">
-      Run LoopFollow on Mac using TestFlight
+      
+        Run LoopFollow on Mac using TestFlight
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#run-loopfollow-on-your-mac-with-mac-xcode-build">
+<a class="md-nav__link" href="#run-loopfollow-on-mac-with-mac-xcode-build">
 <span class="md-ellipsis">
-      Run LoopFollow on your Mac with Mac-Xcode Build
+      
+        Run LoopFollow on Mac with Mac-Xcode Build
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#selection-of-branch-to-build">
 <span class="md-ellipsis">
-      Selection of Branch to Build
+      
+        Selection of Branch to Build
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#updates">
 <span class="md-ellipsis">
-      Updates
+      
+        Updates
+      
     </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#version-numbers">
 <span class="md-ellipsis">
-      Version Numbers
+      
+        Version Numbers
+      
     </span>
 </a>
 </li>
@@ -435,66 +601,22 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/loopandlearn/loopfollowdocs/edit/master/docs/build/build-options.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/loopandlearn/loopfollowdocs/edit/master/docs/build/build-options.md" rel="edit" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
 </a>
 <h1>LoopFollow Build</h1>
 <h2 id="building-options">Building Options<a class="headerlink" href="#building-options" title="Link to this section for reference">¶</a></h2>
-<p><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> can be built using either the Browser Build or the Mac-<abbr title="program used to build an app">Xcode</abbr> Build method.  A paid Apple Developer account is required to use the Browser Build method.  Regardless of how you build, you can customize your <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> app’s name.</p>
+<p><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> can be built using either the Browser Build or the Mac-<abbr title="program used to build an app">Xcode</abbr> Build method.  A paid Apple Developer account is required to use the Browser Build method.  Regardless of how you build, you can customize your <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> app’s name.</p>
 <ul>
 <li>Browser Build: <ul>
-<li>If you have never built, see <a href="https://loopkit.github.io/loopdocs/browser/other-apps/">LoopDocs: Browser Build for Other Apps</a></li>
-<li>If you are a repeat builder, then you need a one-time update <a href="#browser-build-update-for-loopfollow-v40">Browser Build Update for <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> v4.0</a></li>
+<li>If you have never built, see <a href="../lf-browser-build/"><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> Browser Build</a></li>
+<li>If you are updating from v5.x or older, you must follow the one-time steps to <a href="../lf-browser-build/#update-to-loopfollow-v6" target="_blank">Update to <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> v6</a> and <a href="../lf-browser-build/#update-to-loopfollow-v8" target="_blank">Update to <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> v8</a></li>
+<li>If you are updating from v6.x or v7.x, you need to follow the one-time steps to <a href="../lf-browser-build/#update-to-loopfollow-v8" target="_blank">Update to <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> v8</a></li>
 </ul>
 </li>
-<li>Mac-<abbr title="program used to build an app">Xcode</abbr>: <a href="#build-loopfollow-script-for-mac-xcode">Build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> Script for Mac-<abbr title="program used to build an app">Xcode</abbr></a></li>
+<li>Mac-<abbr title="program used to build an app">Xcode</abbr>: <a href="#build-loopfollow-script-for-mac-xcode">Build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> Script for Mac-<abbr title="program used to build an app">Xcode</abbr></a></li>
 </ul>
-<h3 id="browser-build-update-for-loopfollow-v40">Browser Build Update for <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> v4.0<a class="headerlink" href="#browser-build-update-for-loopfollow-v40" title="Link to this section for reference">¶</a></h3>
-<div class="admonition important">
-<p class="admonition-title">New Capability with <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> v4.0</p>
-<p>A new capability was added to <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> regarding remote commands which <strong>requires a one-time update</strong> to your <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> <strong>Identifier</strong>. Browser Build will fail until you take these steps.</p>
-</div>
-<p>It doesn't matter whether the person you follow uses <em><abbr title="With a capital L, Loop is one of several do-it-yourself artifical pancreas systems">Loop</abbr></em> or <em><abbr title="an iOS app that implements the OpenAPS (oref) algorithm on an iPhone">Trio</abbr></em>. You have to update the <abbr title="names of modules found on your Apple Developer Identifiers page that are required for GitHub build method">Identifiers</abbr> or the Browser Build will fail.</p>
-<p>This requires you to follow these steps:</p>
-<h4 id="sync-your-loopfollow-fork">Sync Your <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> <abbr title="a copy of code in a github repository other than the original">fork</abbr><a class="headerlink" href="#sync-your-loopfollow-fork" title="Link to this section for reference">¶</a></h4>
-<ul>
-<li>Go to your <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> <abbr title="a copy of code in a github repository other than the original">fork</abbr> and click on the Sync button</li>
-<li>If your browser build already failed, it already did the sync for you</li>
-</ul>
-<blockquote>
-<p><img alt="sync the fork" src="../img/github-build-check-fork-status.svg" width="700"/></p>
-</blockquote>
-<h4 id="add-push-notifications-capability-to-loopfollow-identifiers">Add Push Notifications Capability to <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> <abbr title="names of modules found on your Apple Developer Identifiers page that are required for GitHub build method">Identifiers</abbr><a class="headerlink" href="#add-push-notifications-capability-to-loopfollow-identifiers" title="Link to this section for reference">¶</a></h4>
-<p>You must manually enable the Push Notifications capabilty to the <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> Identifier. Follow the directions below to open the Identifier and then keep scrolling down until you see Push Notifications. Make sure that check box is enabled, as shown in the graphic below. If you do not do this, the Build will fail.</p>
-<p>The example graphic below has numbered steps that match these directions:</p>
-<p>Click to open the <a href="https://developer.apple.com/account/resources/identifiers/list">Certificates, <abbr title="names of modules found on your Apple Developer Identifiers page that are required for GitHub build method">Identifiers</abbr> &amp; Profiles: <abbr title="names of modules found on your Apple Developer Identifiers page that are required for GitHub build method">Identifiers</abbr> List</a> page. </p>
-<ol>
-<li>Locate the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> Identifer and click on it to open the <code>Edit your App ID Configuration</code> screen<ul>
-<li>The name in the <strong><code>NAME</code></strong> column may be different if you previously built with a Mac using <abbr title="program used to build an app">Xcode</abbr>, in that case it will start with XC</li>
-</ul>
-</li>
-<li>Looking at the <code>App Services</code> column, scroll down to the <code>Push Notifications</code> row</li>
-<li>If the check box is not checked, you must check it</li>
-<li>Scroll back to the top and hit Save if you modified that value or All <abbr title="names of modules found on your Apple Developer Identifiers page that are required for GitHub build method">Identifiers</abbr> if you made no changes</li>
-</ol>
-<p>If you made a change and hit Save, you then need to Tap <code>Continue</code> and Tap <code>Save</code> to complete the process.</p>
-<blockquote>
-<p><img alt="graphic showing selection of the push notifications" src="../img/add-push-notifications.svg" width="600"/></p>
-</blockquote>
-<p>Repeat this step if you use LoopFollow_Second or LoopFollow_Third.</p>
-<h4 id="run-build-loopfollow">Run <code>Build LoopFollow</code><a class="headerlink" href="#run-build-loopfollow" title="Link to this section for reference">¶</a></h4>
-<ol>
-<li>Click on the Actions tab of your <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> <abbr title="contains project files and each file's revision history">repository</abbr></li>
-<li>On the left side, click on <code>4. Build LoopFollow</code></li>
-<li>On the right side, click Run Workflow to show a dropdown menu</li>
-<li>Tap the green button that says Run <abbr title="a set of instructions to GitHub to perform an action; the instruction files are found in the .github/workflows folder of the repository">workflow</abbr>.</li>
-</ol>
-<blockquote>
-<p><img alt="add identifiers" src="../img/action-04-build.svg" width="700"/></p>
-</blockquote>
-<p><strong>Once this completes, be sure to update from <abbr title="a method to distribute apps without direct connection">TestFlight</abbr> to get the updated version of <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> on your phone.</strong></p>
-<p>Repeat the build and install from <abbr title="a method to distribute apps without direct connection">TestFlight</abbr> steps if you use LoopFollow_Second or LoopFollow_Third.</p>
-<h3 id="build-loopfollow-script-for-mac-xcode">Build <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> Script for Mac-<abbr title="program used to build an app">Xcode</abbr><a class="headerlink" href="#build-loopfollow-script-for-mac-xcode" title="Link to this section for reference">¶</a></h3>
+<h3 id="build-loopfollow-script-for-mac-xcode">Build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> Script for Mac-<abbr title="program used to build an app">Xcode</abbr><a class="headerlink" href="#build-loopfollow-script-for-mac-xcode" title="Link to this section for reference">¶</a></h3>
 <p>Carefully read the information in the terminal before making any choices.</p>
 <p>Step 1: Open <abbr title="interface for entering commands to the computer">Terminal</abbr></p>
 <blockquote>
@@ -509,7 +631,7 @@
 <blockquote>
 <p>If you are not following multiple Loopers, always choose 1 for the latest release.</p>
 </blockquote>
-<p>You are prompted to enter a custom name if you want or you can continue using the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> default name</p>
+<p>You are prompted to enter a custom name if you want or you can continue using the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr> default name</p>
 <blockquote>
 <p>If you are following up to 3 Loopers, choose option 1, 2 or 3.</p>
 </blockquote>
@@ -518,31 +640,38 @@
 <li>Each time you download using the script, the name you selected the first time is remembered, but editing instructions are provided</li>
 </ul>
 <p>To test a specific feature that is only found in the dev <abbr title="version of code within a single repository or workspace repository">branch</abbr>, choose option 4. This is not typical, and only builds to the app associated with Looper #1</p>
-<h3 id="run-loopfollow-on-mac-using-testflight">Run <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> on Mac using <abbr title="a method to distribute apps without direct connection">TestFlight</abbr><a class="headerlink" href="#run-loopfollow-on-mac-using-testflight" title="Link to this section for reference">¶</a></h3>
-<p>If you used the Browser Build method, follow these instructions to run <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> on your Mac computer using <abbr title="a method to distribute apps without direct connection">TestFlight</abbr>. (You can also use an iPad.)</p>
+<hr/>
+<h2 id="run-loopfollow-on-mac">Run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on Mac<a class="headerlink" href="#run-loopfollow-on-mac" title="Link to this section for reference">¶</a></h2>
+<p>You can run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on your Mac if you choose.</p>
+<ul>
+<li><a href="#run-loopfollow-on-mac-using-testflight">Run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on Mac using <abbr title="a method to distribute apps without direct connection">TestFlight</abbr></a></li>
+<li><a href="#run-loopfollow-on-mac-with-mac-xcode-build">Run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on Mac with Mac-<abbr title="program used to build an app">Xcode</abbr> Build</a></li>
+</ul>
+<h3 id="run-loopfollow-on-mac-using-testflight">Run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on Mac using <abbr title="a method to distribute apps without direct connection">TestFlight</abbr><a class="headerlink" href="#run-loopfollow-on-mac-using-testflight" title="Link to this section for reference">¶</a></h3>
+<p>If you used the Browser Build method, follow these instructions to run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on your Mac computer using <abbr title="a method to distribute apps without direct connection">TestFlight</abbr>. (You can also use an iPad.)</p>
 <ul>
 <li>You need to install the <abbr title="a method to distribute apps without direct connection">TestFlight</abbr> app on your computer</li>
 <li>The <abbr title="a method to distribute apps without direct connection">TestFlight</abbr> app on the Mac shows the same set of builds and uses the same installation procedure as shown in LoopDocs for installing apps on a phone from <abbr title="a method to distribute apps without direct connection">TestFlight</abbr></li>
 <li>Install on computer from <abbr title="a method to distribute apps without direct connection">TestFlight</abbr></li>
 <li>You need to enter the data source and configuration values into the app on your computer</li>
 </ul>
-<p>From Mac system settings/notifications, scroll down to <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> and enable notifications with the options you want.</p>
-<h3 id="run-loopfollow-on-your-mac-with-mac-xcode-build">Run <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> on your Mac with Mac-<abbr title="program used to build an app">Xcode</abbr> Build<a class="headerlink" href="#run-loopfollow-on-your-mac-with-mac-xcode-build" title="Link to this section for reference">¶</a></h3>
+<p>From Mac system settings/notifications, scroll down to <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> and enable notifications with the options you want.</p>
+<h3 id="run-loopfollow-on-mac-with-mac-xcode-build">Run <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> on Mac with Mac-<abbr title="program used to build an app">Xcode</abbr> Build<a class="headerlink" href="#run-loopfollow-on-mac-with-mac-xcode-build" title="Link to this section for reference">¶</a></h3>
 <ol>
-<li>Build <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> to your Mac with <abbr title="program used to build an app">Xcode</abbr> (choose My Mac (Mac Catalyst) as the device)</li>
+<li>Build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> to your Mac with <abbr title="program used to build an app">Xcode</abbr> (choose My Mac (Mac Catalyst) as the device)</li>
 <li>Click Stop to close the running app that is started by <abbr title="program used to build an app">Xcode</abbr></li>
 <li>On the left side of <abbr title="program used to build an app">Xcode</abbr>, click on the Folder icon</li>
-<li>Click to open the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> folder list</li>
-<li>Click to open the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr>/Products folder</li>
-<li>Right-click (or Control-click) on “<abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr>.app” and select Show in Finder</li>
+<li>Click to open the <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> folder list</li>
+<li>Click to open the <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em>/Products folder</li>
+<li>Right-click (or Control-click) on “<abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr>.app” and select Show in Finder</li>
 <li>First time on the Mac:<ul>
-<li>Drag the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr>.app icon to your Applications folder in Finder</li>
-<li>From Mac system settings/notifications, scroll down to <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> and enable notifications with the options you want</li>
+<li>Drag the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr>.app icon to your Applications folder in Finder</li>
+<li>From Mac system settings/notifications, scroll down to <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> and enable notifications with the options you want</li>
 </ul>
 </li>
 <li>When updating on your Mac<ul>
-<li>Make sure you close the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> app currently running on your computer</li>
-<li>Drag the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr>.app icon to your Applications folder in Finder</li>
+<li>Make sure you close the <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> app currently running on your computer</li>
+<li>Drag the <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr>.app icon to your Applications folder in Finder</li>
 <li>Most people choose to replace the application, but you can keep both if you prefer</li>
 <li>All configurations and settings are maintained</li>
 </ul>
@@ -550,15 +679,15 @@
 </ol>
 <h3 id="selection-of-branch-to-build">Selection of Branch to Build<a class="headerlink" href="#selection-of-branch-to-build" title="Link to this section for reference">¶</a></h3>
 <p><code>main</code> vs. <code>dev</code></p>
-<p><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em> users should build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em>-main.  New features are tested in the dev <abbr title="version of code within a single repository or workspace repository">branch</abbr>. Once they are thoroughly tested, they are merged into main.  Experienced users can test <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em>-dev, but there will be minimal support. Any issues found with <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr></em>-dev should be reported in <abbr title="an online service for storing repositories, accessible from a browser">GitHub</abbr>.   </p>
+<p><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> users should build <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em>-main.  New features are tested in the dev <abbr title="version of code within a single repository or workspace repository">branch</abbr>. Once they are thoroughly tested, they are merged into main.  Experienced users can test <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em>-dev, but there will be minimal support. Any issues found with <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em>-dev should be reported in <abbr title="an online service for storing repositories, accessible from a browser">GitHub</abbr>.   </p>
 <h3 id="updates">Updates<a class="headerlink" href="#updates" title="Link to this section for reference">¶</a></h3>
-<p>When modifications and versions are updated, you might see activity at <abbr title="an online service for storing repositories, accessible from a browser">GitHub</abbr>. Please wait for the release message to be posted at <a href="https://github.com/loopandlearn/LoopFollow/releases"><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr> Releases</a> before using the updated versions for the <code>main</code> <abbr title="version of code within a single repository or workspace repository">branch</abbr> of <abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nigthscout">LoopFollow</abbr>, LoopFollow_Second and LoopFollow_Third.</p>
+<p>When modifications and versions are updated, you might see activity at <abbr title="an online service for storing repositories, accessible from a browser">GitHub</abbr>. Please wait for the release message to be posted at <a href="https://github.com/loopandlearn/LoopFollow/releases"><em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em> Releases</a> before using the updated versions for the <code>main</code> <abbr title="version of code within a single repository or workspace repository">branch</abbr> of <em><abbr title="LoopFollow combines custom alerts and display from many open-source apps such as Loop, Trio and Nightscout">LoopFollow</abbr></em>, <em>LoopFollow_Second</em> and <em>LoopFollow_Third</em>.</p>
 <h3 id="version-numbers">Version Numbers<a class="headerlink" href="#version-numbers" title="Link to this section for reference">¶</a></h3>
 <p>Updates to the <code>main</code> <abbr title="version of code within a single repository or workspace repository">branch</abbr> (releases) have a version number that ends in 0; for example, 3.1.0.</p>
 <ul>
 <li>Immediately following the release, the <code>dev</code> <abbr title="version of code within a single repository or workspace repository">branch</abbr> is at the same version as <code>main</code> indicating the code is identical</li>
 <li>Each time a feature is merged into the <code>dev</code> <abbr title="version of code within a single repository or workspace repository">branch</abbr>, the final number increments; for example, 3.1.1, 3.1.2</li>
-<li>When the next release is made, the second digit is incremented and the final digit is restore to 0 for both <code>main</code> and <code>dev</code>; for example, 3.2.0</li>
+<li>When the next release is made, the second digit is incremented and the final digit is restored to 0 for both <code>main</code> and <code>dev</code>; for example, 3.2.0</li>
 </ul>
 </article>
 </div>
@@ -572,7 +701,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Nightscout Remote Control" class="md-footer__link md-footer__link--prev" href="../../remote/remote-control-nightscout/">
+<a aria-label="Previous: Remote Command Errors" class="md-footer__link md-footer__link--prev" href="../../remote/remote-command-errors/">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </div>
@@ -581,17 +710,17 @@
                 Previous
               </span>
 <div class="md-ellipsis">
-                Nightscout Remote Control
+                Remote Command Errors
               </div>
 </div>
 </a>
-<a aria-label="Next: LoopFollow FAQs" class="md-footer__link md-footer__link--next" href="../../faqs/lf-faqs/">
+<a aria-label="Next: LoopFollow Browser Build" class="md-footer__link md-footer__link--next" href="../lf-browser-build/">
 <div class="md-footer__title">
 <span class="md-footer__direction">
                 Next
               </span>
 <div class="md-ellipsis">
-                LoopFollow FAQs
+                LoopFollow Browser Build
               </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -614,10 +743,10 @@
 </div>
 <div class="md-social">
 <a class="md-social__link" href="https://github.com/loopandlearn/LoopFollow" rel="noopener" target="_blank" title="LoopFollow on GitHub">
-<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
 </a>
 <a class="md-social__link" href="https://www.facebook.com/groups/loopfollowlnl" rel="noopener" target="_blank" title="LoopFollow on Facebook">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"></path></svg>
 </a>
 </div>
 </div>
@@ -628,10 +757,11 @@
 <div class="md-dialog__inner md-typeset"></div>
 </div>
 <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.prune", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "search.share", "toc.follow"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": "0.4.0"}</script>
-<script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+<script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.prune", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "search.share", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": "0.4.0"}</script>
+<script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
 <script src="../../assets/javascripts/mathjax.js"></script>
 <script src="../../assets/javascripts/mkdocs-exporter.js"></script>
+<script src="../../assets/javascripts/lf-android-builder.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
 <script src="../../js/open_in_new_tab.js"></script>
